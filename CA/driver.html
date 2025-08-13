@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Driver · CampusAuto</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="brand"><span>🛺</span><b>Driver</b></div>
+    <a class="btn small outline" href="index.html">Home</a>
+  </header>
+
+  <main class="page">
+    <section class="panel">
+      <h2>Go Online</h2>
+      <button id="goOnline" class="btn block">Go Online + Share Location</button>
+      <button id="goOffline" class="btn block outline">Go Offline</button>
+
+      <div id="assignBox" class="status hide">
+        <h3>Assignment</h3>
+        <div id="assignText">Pending…</div>
+        <div class="otp">OTP: <span id="dOtp">—</span></div>
+
+        <div class="row">
+          <button id="markBoarded" class="btn">Boarded (OTP OK)</button>
+          <button id="markComplete" class="btn outline">Trip Complete</button>
+        </div>
+      </div>
+
+      <div class="tips">
+        <b>Note:</b> SIMULATE mode me assignment fake hoga testing ke liye.
+      </div>
+    </section>
+
+    <section class="map-wrap">
+      <div id="map" class="map"></div>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 CampusAuto</footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+
+  <script src="config.js"></script>
+  <script src="locations.js"></script>
+  <script src="lib/socket.js"></script>
+  <script src="lib/map.js"></script>
+  <script src="lib/api.js"></script>
+  <script src="driver.js"></script>
+</body>
+</html>
+
