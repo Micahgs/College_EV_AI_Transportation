@@ -1,45 +1,40 @@
-Thapar Auto Pooling System
-Optimizing Campus E-Rickshaws with AI-Powered Pooling
-🌍 Live Website | 💻 GitHub Repo
+🚌 Thapar Auto Pooling System
+AI-Optimized Campus E-Rickshaw Sharing
 
-Problem Statement
-Students at Thapar Institute, Patiala face two key issues:
+Solves Thapar's auto-rickshaw problems by smart pooling and AI-powered demand prediction.
 
-Wasted Time: Autos refuse to move until all 4 seats are filled
+🌐 Live Links
 
-Inefficient Routing: Drivers idle during odd hours ignoring partial groups
+Main Website: https://college-ev-ai-transportation-mxrd.vercel.app/
 
-Our Solution
-A real-time auto-pooling platform with:
+Student Portal: [Coming Soon]
 
-Student App for ride requests + OTP verification
+🚀 Features
+Real-time auto pooling (4-seat optimization)
 
-Driver App for assigned routes
+OTP-based ride verification
 
-AI Backend for demand prediction
+Live tracking on campus map
 
-Key Features
-✅ Dynamic Pooling (2+2 = 4 seats)
-✅ Live Tracking on campus map
-✅ ML Predictions for rush hours
+ML-powered demand forecasting
 
-Tech Stack
-Frontend: Next.js, TailwindCSS
+Driver incentive system
 
-Backend: Firebase, Node.js
+🛠️ Tech Stack
+Component	Technology
+Frontend	Next.js, TailwindCSS
+Backend	Firebase, Node.js
+Maps	Google Maps API
+AI/ML	Python (Pandas, Scikit-learn)
+Deployment	Vercel (Web), Render (Backend)
+📥 Installation
+bash
+# Clone repo  
+git clone https://github.com/<your-username>/thapar-auto-pooling.git  
+cd thapar-auto-pooling  
 
-AI: Python (Pandas, Scikit-learn)
+# Install dependencies  
+npm install  
 
-How It Works
-Student requests ride → gets grouped
-
-Driver receives OTP + route → starts trip
-
-AI learns patterns over time
-
-Future Work
-Partial pool pricing
-
-Driver incentives
-
-Walkable route integration
+# Run app  
+npm run dev  
